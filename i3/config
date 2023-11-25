@@ -183,7 +183,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec_always feh --bg-fill ~/Pictures/Wallpapers/evening-sky.png
+exec feh --bg-fill ~/Pictures/Wallpapers/evening-sky.png
 exec polybar
 default_border none
 
